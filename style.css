@@ -1,0 +1,150 @@
+.header {
+    height: 50px;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+main {
+    height: 500px;
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+}
+
+footer {
+    height: 50px;
+    background: lightgray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.search-bar {
+    width: 40%;
+    display: block;
+    border-radius: 25px;
+    height: 40px;
+    text-align: left;
+    margin: 25px;
+    border: 1px lightgray;
+    border-style: solid;
+    outline: none;
+    text-align: center;
+    margin: 25px auto;
+    position: relative;
+}
+
+.search-bar:hover {
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+.mic-icon {
+    height: 20px;
+    width: 15px;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+input {
+    text-align: left;
+    border: none;
+    width: 500px;
+    outline: none;
+    justify-self: center;
+    margin-top: 10px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.google-logo {
+    margin-top: 150px;
+}
+
+.topnav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    color: #545454;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav-right button{
+    text-align: center;
+    background:#4285F4;
+    color: white;
+    border: none;
+    padding: 8px 16px 8px 16px;
+    border-radius: 5%;
+    right: 0;
+    margin-right: 20px;
+    outline: none;
+}
+
+.apps-icon {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+
+.apps-icon:hover{
+      opacity: 1;
+}
+
+.bottomnav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: #545454;
+}
+
+.bottomnav a:hover {
+    text-decoration: underline;
+}
+
+.bottomnav-right {
+  float: right;
+}
+
+.search-button {
+    border-style: none;
+    height: 35px;
+    width: 125px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #545454;
+}
+
+.search-button:hover {
+    border-style: solid;
+    border-color: lightgray;
+}
